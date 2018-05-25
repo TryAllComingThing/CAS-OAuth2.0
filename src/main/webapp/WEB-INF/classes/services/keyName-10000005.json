@@ -1,0 +1,13 @@
+{
+  "@class" : "org.jasig.cas.support.oauth.services.OAuthRegisteredService",
+  "clientId": "key",                 
+  "clientSecret": "secret",
+  "bypassApprovalPrompt": false,
+  "serviceId" : "^https://mos.zhizhangyi.com",
+  "name" : "keyName",
+  "id" : 10000005,
+  "attributeReleasePolicy" : {
+    "@class" : "org.jasig.cas.services.ReturnAllowedAttributeReleasePolicy",
+    "allowedAttributes" : [ "java.util.ArrayList", [ "id", "account", "username", "valid", "password" ] ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  @class: org.jasig.cas.support.oauth.services.OAuthCallbackAuthorizeService
+  serviceId: https://sso.castest.com:8443/cas/oauth2.0/callbackAuthorize
+  name: OAuth Callback url
+  id: 266014601361812
+  description: OAuth Wrapper Callback Url
+  logoutType: BACK_CHANNEL
+  accessStrategy:
+  {
+    @class: org.jasig.cas.services.DefaultRegisteredServiceAccessStrategy
+    enabled: true
+    ssoEnabled: true
+    requireAllAttributes: true
+    caseInsensitive: true
+  }
+  
+}
